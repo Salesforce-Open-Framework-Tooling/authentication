@@ -5,7 +5,6 @@
 ## Usage
 
 ```
-const authentication = require('authentication');
+const authentication = require('@soft/authentication');
 
-// TODO: DEMONSTRATE API
-```
+// TODO: USAGE
