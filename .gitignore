@@ -19,3 +19,4 @@ $RECYCLE.BIN/
 
 # OSX-specific exclusions
 .[dD][sS]_[sS]tore
+yarn.lock
