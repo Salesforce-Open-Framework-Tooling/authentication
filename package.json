@@ -1,0 +1,40 @@
+{
+  "name": "@soft/authentication",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Gil Avignon <pro@gilavignon.com>",
+  "homepage": "https://github.com/Salesforce-Open-Framework-Tooling/soft#readme",
+  "license": "ISC",
+  "main": "lib/exported.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salesforce-Open-Framework-Tooling/soft.git"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
+  },
+  "bugs": {
+    "url": "https://github.com/Salesforce-Open-Framework-Tooling/soft/issues"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@soft/service": "^0.0.1",
+    "jsforce": "^1.10.0"
+  }
+}
