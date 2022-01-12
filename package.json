@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Salesforce-Open-Framework-Tooling/authentication#readme",
   "license": "MIT",
   "main": "lib/exported",
-  "types": "dist/exported.d.ts",
+  "types": "lib/exported.d.ts",
   "directories": {
     "lib": "lib",
     "test": "tests"
