@@ -19,6 +19,7 @@
     "url": "git+https://github.com/Salesforce-Open-Framework-Tooling/authentication.git"
   },
   "scripts": {
+    "build": "tsc",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
   },
