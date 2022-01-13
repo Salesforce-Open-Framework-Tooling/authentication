@@ -7,9 +7,6 @@
   "license": "MIT",
   "main": "lib/exported",
   "types": "lib/exported.d.ts",
-  "exports": {
-    ".": "./lib/exported.js"
-  },
   "directories": {
     "lib": "lib",
     "test": "tests"
