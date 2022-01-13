@@ -10,6 +10,7 @@ yarn-error.log*
 
 # Dependency directories
 node_modules/
+lib/
 
 # Windows system files
 Thumbs.db

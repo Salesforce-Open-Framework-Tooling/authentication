@@ -1,12 +1,9 @@
 {
     "extends": "./node_modules/@salesforce/dev-config/tsconfig-strict",
     "compilerOptions": {
-      "module": "commonjs",
-      "target": "es2015",
-      "outDir": "./lib",
-      "declarationMap": true
+      "outDir": "./lib"
     },
     "include": [
-      "src/**/*"
+      "src/**/*.ts"
     ]
 }
